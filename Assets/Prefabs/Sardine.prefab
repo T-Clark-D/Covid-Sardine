@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4594573016505845494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6187322544038042410}
+  - component: {fileID: 5358360849919598022}
+  - component: {fileID: 2810107867122070473}
+  - component: {fileID: 6873117411303390873}
+  - component: {fileID: 1332700030288282400}
+  m_Layer: 0
+  m_Name: Sardine
+  m_TagString: Sardine
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6187322544038042410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4594573016505845494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.53, y: 1.48, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5358360849919598022
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4594573016505845494}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 1526161377
+  m_SortingLayer: 5
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 3347685813828341178, guid: 3bae961d9cbb11145a82527e3d071512, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 6.6600003, y: 18.25}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!70 &2810107867122070473
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4594573016505845494}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.18831342, y: 0.058065057}
+  m_Size: {x: 5.7812066, y: 18.366163}
+  m_Direction: 0
+--- !u!114 &6873117411303390873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4594573016505845494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca90783447fd634e98c0507069cb770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInfected: 0
+  Hook: {fileID: 3779756118322549020, guid: 0b7349a1a97d69848b2e0d387a2040f8, type: 3}
+  SardineUVUIUM: {fileID: 3347685813828341178, guid: 3bae961d9cbb11145a82527e3d071512, type: 3}
+  SardineUVUIM: {fileID: -3665082983849330168, guid: 3bae961d9cbb11145a82527e3d071512, type: 3}
+  SardineVUIUM: {fileID: 7729305190478562485, guid: 3bae961d9cbb11145a82527e3d071512, type: 3}
+  SardineVUIM: {fileID: -5620793090488144175, guid: 3bae961d9cbb11145a82527e3d071512, type: 3}
+  SardineUVIUM: {fileID: 1481481253866407626, guid: 3bae961d9cbb11145a82527e3d071512, type: 3}
+  SardineUVIM: {fileID: 5496540094413910728, guid: 3bae961d9cbb11145a82527e3d071512, type: 3}
+  SardineVIM: {fileID: -2779463100221534224, guid: 3bae961d9cbb11145a82527e3d071512, type: 3}
+  SardineVIUM: {fileID: -2765195642126633127, guid: 3bae961d9cbb11145a82527e3d071512, type: 3}
+  BathingSardineUVUIUM: {fileID: -7834370434228075091, guid: ae28e3584fae9eb44ae2ab9ebd9bd3d1, type: 3}
+  BathingSardineUVUIM: {fileID: -5493144434713499215, guid: ae28e3584fae9eb44ae2ab9ebd9bd3d1, type: 3}
+  BathingSardineVUIUM: {fileID: 3537394393460429449, guid: ae28e3584fae9eb44ae2ab9ebd9bd3d1, type: 3}
+  BathingSardineVUIM: {fileID: 1522784389862233268, guid: ae28e3584fae9eb44ae2ab9ebd9bd3d1, type: 3}
+  BathingSardineUVIUM: {fileID: -6030312510100762601, guid: ae28e3584fae9eb44ae2ab9ebd9bd3d1, type: 3}
+  BathingSardineUVIM: {fileID: 3235157068094795074, guid: ae28e3584fae9eb44ae2ab9ebd9bd3d1, type: 3}
+  BathingSardineVIM: {fileID: -5084550534820229438, guid: ae28e3584fae9eb44ae2ab9ebd9bd3d1, type: 3}
+  BathingSardineVIUM: {fileID: 4718313769471822373, guid: ae28e3584fae9eb44ae2ab9ebd9bd3d1, type: 3}
+  SR: {fileID: 0}
+  sniper: {fileID: 0}
+  points: {fileID: 0}
+--- !u!50 &1332700030288282400
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4594573016505845494}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
